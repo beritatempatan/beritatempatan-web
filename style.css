@@ -11,15 +11,20 @@ header, footer {
   padding: 20px;
   background: #1f1f1f;
 }
-h1 {
-  margin: 0;
+nav a {
+  margin: 0 10px;
+  color: #4fc3f7;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
 }
 main {
   max-width: 800px;
   margin: 2em auto;
   padding: 0 1em;
 }
-.article {
+article {
   display: flex;
   flex-direction: column;
   background: #1e1e1e;
@@ -27,7 +32,7 @@ main {
   overflow: hidden;
   margin-bottom: 2em;
 }
-.article img {
+article img {
   width: 100%;
   height: auto;
 }
@@ -38,14 +43,6 @@ main {
   font-size: 0.9em;
   color: #bbb;
 }
-a {
-  color: #4fc3f7;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-article img {
-  width: 100%;
-  margin: 1em 0;
+h1, h2 {
+  margin: 0.5em 0;
 }
